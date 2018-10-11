@@ -1,0 +1,69 @@
+.logo_head{
+    height: 40px;
+}
+.titular{
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.item img{
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: #999999;
+}
+.navbar{
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(0,0,0,0,0);
+}
+.navbar-default{
+    background: transparent;
+        -webkit-box-shadow: 0 transparent;
+        border-bottom: rgba(0,0,0,0,0);
+}
+
+.carousel{
+    z-index: 1;
+}
+.botones{
+  text-align: center;
+  margin: 40px 0 15px 0;
+}
+
+button{
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.verde{
+  background-color: #5cb85c;
+}
+
+
+.azul{
+  background-color: #337ab7;
+  margin: 0 20px 0 0;
+}
+
+button a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+}
+.carousel-caption p{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    padding: 0 0 20px 0;
+    line-height: 1.5;
+}
