@@ -1,2 +1,2 @@
 # Ejercicio_8
-Desafío 007 - Landing Page con Bootstrap
+Desafío 008 - Landing Page con Bootstrap
