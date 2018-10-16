@@ -1,6 +1,9 @@
 .logo_head{
     height: 40px;
 }
+.navbar-brand{
+    padding-top: 10px;
+}
 .titular{
     text-align: center;
     color: #ffffff;
@@ -10,22 +13,28 @@
 .item img{
     width: 100%;
 }
+.carousel-inner .item{
+    height: 490px;
+}
 nav a{
     text-decoration: none;
-    color: #999999;
+    color: #9f9f9f;
 }
 .navbar{
     margin-bottom: 0;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    background-color: rgba(0,0,0,0,0);
+    background-color: transparent;
 }
 .navbar-default{
     background: transparent;
-        -webkit-box-shadow: 0 transparent;
-        border-bottom: rgba(0,0,0,0,0);
+    -webkit-box-shadow: initial;
+    border-color: transparent;
+    box-shadow: initial;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 .carousel{
     z-index: 1;
 }
@@ -66,4 +75,158 @@ button a{
     margin: auto;
     padding: 0 0 20px 0;
     line-height: 1.5;
+}
+.parte2 h2{
+  font-size: 21px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 60px 0 20px 0;
+}
+.parte2 p{
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px auto;
+  line-height: 1.5;
+}
+
+.parte2 img{
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.parte3{
+  background-color: #faf9f9;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 60px 0;
+}
+.parte3 h2{
+  font-size: 21px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.bajada{
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 0 auto;
+  line-height: 1.5;
+}
+
+.boton{
+  text-align: center;
+}
+
+.inscribete{
+  background-color: #337ab7;
+  margin: 10px 0 10px 0;
+}
+
+.linea{
+  font-size: 15px;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+
+.parte4{
+  margin: 30px 0 40px 0;
+  padding: 0 10px 0 10px;
+}
+
+
+.contacto h3{
+  font-size: 18px;
+  color: #5d5d5d;
+  margin: 20px 0 10px 0;
+}
+
+.contacto a{
+  color: #337ab7;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.direccion{
+  font-size: 15px;
+  color: #5d5d5d;
+  font-weight: 400;
+}
+span{
+  border-bottom:1px dotted #9999CC;
+}
+.suscribete h3{
+  font-size: 18px;
+  color: #5d5d5d;
+  margin: 20px 0 10px 0;
+}
+.suscribete p{
+  font-size: 15px;
+  color: #5d5d5d;
+  font-weight: 400;
+}
+input{
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+}
+.email{
+  font-size: 14px;
+  color: #eaeaea;
+}
+.submit{
+  background-color: #ffffff;
+  color: #333333;
+  cursor: pointer;
+}
+/*Fin parte4 */
+
+footer{
+  background-color: #333333;
+}
+
+footer p{
+  font-size: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  margin: auto;
+  padding: 30px 0;
+  letter-spacing: 2px;
+}
+@media (max-width: 767px){
+    .navbar-default{
+        background: black;
+        -webkit-box-shadow: initial;
+        border-color: transparent;
+        box-shadow: initial;
+        border: 0;
+        position: fixed;
+    }
+    .navbar-collapse{
+        border: 0;
+        box-shadow: initial;
+    }
+    .titular{
+        font-size: 20px;
+        padding-top: 0;
+        margin-top: 0
+    }
+    .carousel{
+        margin-top: 70px;
+    }
+    .carousel-inner .item{
+        width: auto;
+        height: 100%;
+    }
 }
